@@ -1,6 +1,6 @@
 .env
 .venv
 
-.txt
-.json
-.html
+*.txt
+*.json
+*.html
