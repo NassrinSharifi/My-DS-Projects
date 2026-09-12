@@ -11,8 +11,8 @@ seaborn==0.13.2
 scikit-learn==1.9.1
 plotly==6.7.0
 
-# scikit-learn is used only in section 8 of project 01, for the cross-validated model
-# comparison and the label-permutation null.
+# scikit-learn is not used by project 01 (that notebook is exploration only, no models).
+# It is kept here for project 02.
 
 # Plotly renders through the "notebook_connected" renderer, which pulls plotly.js from a
 # CDN. The interactive charts therefore need an internet connection the first time a
