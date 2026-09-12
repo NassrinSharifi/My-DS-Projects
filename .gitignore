@@ -6,3 +6,8 @@
 *.html
 IDEA.md
 *.zip
+*.pdf
+# keep the pinned environment tracked despite the *.txt rule above
+!requirements.txt
+
+CLAUDE.md

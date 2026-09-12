@@ -1,0 +1,20 @@
+# Shared environment for all projects in this repo.
+# Pinned to the versions the notebooks were last run against (conda env EDA-py311,
+# Python 3.11.15).
+matplotlib==3.10.0
+numpy==2.3.5
+pandas==2.3.3
+pillow==12.3.0
+requests==2.34.2
+scipy==1.16.3
+seaborn==0.13.2
+scikit-learn==1.9.1
+plotly==6.7.0
+
+# scikit-learn is used only in section 8 of project 01, for the cross-validated model
+# comparison and the label-permutation null.
+
+# Plotly renders through the "notebook_connected" renderer, which pulls plotly.js from a
+# CDN. The interactive charts therefore need an internet connection the first time a
+# notebook is opened, and they do not render in GitHub's .ipynb preview — open them in
+# Jupyter, nbviewer, or on Kaggle.
